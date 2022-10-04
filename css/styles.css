@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fraunces 9pt";
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(229, 226, 226);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    font-family: "Roboto";
+}
+
+section {
+    background-color: #fff;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px 40px;
+    width: 1280px;
+    height: 2800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.headers-ul {
+    display: flex;
+    gap: 40px;
+}
+
+.headers-a{
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Roboto";
+}
+
+.headers-a:hover {
+    color: #000;
+}
+
+a {
+    cursor: pointer;
+}
+
+.headers-text{
+    list-style: none;
+    color: gray;
+    text-transform: uppercase;
+}
+.headers-text:hover {
+    color: #000;
+}
+
+.div-photo {
+    background-image: url(../img/Bitmap\ 1.png);
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 600px 100px 150px;
+}
+
+.main-h4 {
+    font-size: 20px;
+    color: rgb(193, 191, 191);
+    font-weight: 300;
+} 
+
+.main-h1 {
+    font-size: 60px;
+    color: #fff;
+    font-family: "Fraunces 9pt";
+}
+
+.button-photo {
+    background-color: #6dcdca;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 230px;
+    text-transform: uppercase;
+}
+
+.button-photo:hover {
+    background-color: #89d7eb;
+}
+
+.text {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.position {
+    font-size: 200px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.background {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+}
+
+.section2 {
+    position: relative;
+}
+
+.paket {
+    width: 300px;
+}
+
+.mains-div {
+    display: flex;
+    padding-top: 120px;
+}
+
+.main-text {
+    width: 200px;
+    text-align: center;
+}
+
+.title {
+    width: 300px;
+    text-align: center;
+}
+
+.text2 {
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+}
+
+.div-parent-section {
+    position: relative;
+    height: 700px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 2435px;
+}
+
+.section3 {
+    background-color: #292f39;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 1200px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.section4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 635px;
+}
+
+.div-section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+    margin-top: 300px;
+}
+
+.section-text {
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:"Fraunces 9pt";
+}
+
+.sections-text {
+    text-align: center;
+    width: 550px;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.card-info-text {
+    width: 250px;
+    font-size: 20px;
+}
+
+.card {
+    color: #fff;
+    background-color: #0e8784;
+    width: 300px;
+    display: flex;
+    border-radius: 8px;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 382px;
+    width: 300px;
+    padding: 80px 3px;
+}
+
+.card__text{
+    font-size: 35px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-top: 60px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.img-photo {
+    position: absolute;
+}
+
+.oval-radial {
+    width: 10px;
+    height: 10px;
+    background-image: radial-gradient(
+        #fff 0% ,
+        #fff 80% ,
+        #96cac6 80% ,
+        #96cac6 85% ,
+        #fff 85% ,
+        #fff 100%
+    );
+}
+
+.second2 {
+    z-index: 1;
+}
+
+.title-section4 {
+    color: gray;
+    font-size: 36px;
+    font-family:  "Fraunces 9pt";
+    font-weight: 600;
+}
+
+.general {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.main-card-text {
+    width: 200px;
+    text-align: start;
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.generals-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+.nomer {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    color: #fdd6ba;
+}
+
+.title-card {
+    font-size: 30px;
+    width: 150px;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #292f39;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 1200px;
+    height: 120px;
+    position: relative;
+    align-items: center;
+    padding: 20px 50px;
+    justify-content: space-between;
+}
+
+.text-footer .text-child-footer{
+    color: gray;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.text-footer .text-child-footer:hover{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.div-start-footer ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.div-start-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 660px;
+}
+
+.div-start-footer ul li {
+    list-style: none;
+}
+
+.div-end-footer {
+    display: flex;
+    gap: 15px;
+}
+
+img {
+    cursor: pointer;
+} 
