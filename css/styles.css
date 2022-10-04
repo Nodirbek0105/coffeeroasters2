@@ -36,12 +36,12 @@ section {
     margin: 100px;
 }
 
-.headers-ul {
+.headers-list {
     display: flex;
     gap: 40px;
 }
 
-.headers-a{
+.headers-link{
     list-style: none;
     text-decoration: none;
     color: gray;
@@ -50,7 +50,7 @@ section {
     font-family: "Roboto";
 }
 
-.headers-a:hover {
+.headers-link:hover {
     color: #000;
 }
 
@@ -58,16 +58,16 @@ a {
     cursor: pointer;
 }
 
-.headers-text{
+.headers-item{
     list-style: none;
     color: gray;
     text-transform: uppercase;
 }
-.headers-text:hover {
+.headers-item:hover {
     color: #000;
 }
 
-.div-photo {
+.coffee-section__img {
     background-image: url(../img/Bitmap\ 1.png);
     width: 1200px;
     height: 600px;
@@ -79,19 +79,19 @@ a {
     padding: 100px 600px 100px 150px;
 }
 
-.main-h4 {
+.coffee-section-description {
     font-size: 20px;
     color: rgb(193, 191, 191);
     font-weight: 300;
 } 
 
-.main-h1 {
+.coffee-section-title {
     font-size: 60px;
     color: #fff;
     font-family: "Fraunces 9pt";
 }
 
-.button-photo {
+.photo-btn {
     background-color:  #0e8784 ;
     color: #fff;
     padding: 10px 15px;
@@ -103,7 +103,7 @@ a {
     text-transform: uppercase;
 }
 
-.button-photo:hover {
+.photo-btn:hover {
     background-color: #6dcdca;
 }
 
@@ -123,14 +123,14 @@ a {
     
 }
 
-.background {
+.mains-card {
     z-index: 1;
     display: flex;
     flex-direction: column;
     height: 350px;
 }
 
-.section2 {
+.main-section {
     position: relative;
 }
 
@@ -138,7 +138,7 @@ a {
     width: 300px;
 }
 
-.mains-div {
+.mains-cards {
     display: flex;
     padding-top: 120px;
 }
@@ -206,21 +206,21 @@ a {
     margin-top: 300px;
 }
 
-.section-text {
+.div-section3-title {
     color: #fff;
     font-size: 45px;
     font-weight: bold;
     font-family:"Fraunces 9pt";
 }
 
-.sections-text {
+.div-section3-description {
     text-align: center;
     width: 550px;
     font-size: 23px;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.card-info-text {
+.card-description {
     width: 250px;
     font-size: 20px;
 }
@@ -240,7 +240,7 @@ a {
     padding: 80px 3px;
 }
 
-.card__text{
+.card__title{
     font-size: 35px;
 }
 
@@ -253,8 +253,8 @@ a {
 
 .line {
     display: flex;
-    align-items: center;
-    justify-content: space-around;    
+    align-items: center; 
+    width: 1040px;  
 }
 
 .img-photo {
@@ -274,7 +274,13 @@ a {
     z-index: 1;
 }
 
-.title-section4 {
+.lines {
+    width: 370px;
+    height: 3px;
+    background-color: #fdd6ba;
+}
+
+.section4-title {
     color: gray;
     font-size: 36px;
     font-family:  "Fraunces 9pt";
@@ -288,12 +294,12 @@ a {
     width: 1000px;
 }
 
-.main-card-text {
+.main-card-description {
     width: 200px;
     text-align: start;
 }
 
-.card-main {
+.-general-card-main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -333,7 +339,7 @@ a {
     justify-content: space-between;
 }
 
-.text-footer .text-child-footer{
+.footer-text .footer-text-child{
     color: gray;
     list-style: none;
     text-decoration: none;
@@ -374,3 +380,6 @@ a {
 img {
     cursor: pointer;
 } 
+button {
+    cursor: pointer;
+}
