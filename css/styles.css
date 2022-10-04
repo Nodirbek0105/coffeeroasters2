@@ -11,7 +11,6 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: rgb(229, 226, 226);
 }
 
 .header {
@@ -121,6 +120,7 @@ a {
     display: flex;
     justify-content: center;
     position: absolute;
+    
 }
 
 .background {
@@ -262,16 +262,12 @@ a {
 }
 
 .oval-radial {
-    width: 10px;
-    height: 10px;
-    background-image: radial-gradient(
-        #fff 0% ,
-        #fff 80% ,
-        #96cac6 80% ,
-        #96cac6 85% ,
-        #fff 85% ,
-        #fff 100%
-    );
+    width: 40px;
+    height: 40px;
+   background-image:  radial-gradient(
+     #fff 0% , #fff 50% ,
+      #0e8784 50% , #0e8784 70% ,
+       #fff 70% , #fff 100% );
 }
 
 .second2 {
