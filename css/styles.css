@@ -117,9 +117,12 @@ a {
 .position {
     font-size: 200px;
     width: 1200px;
+    background: -webkit-linear-gradient(#000,#fff);
     display: flex;
     justify-content: center;
     position: absolute;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
     
 }
 
@@ -348,11 +351,15 @@ a {
     font-weight: 700;
 }
 
-.text-footer .text-child-footer:hover{
-    color: #fff;
+.text-footer .footer-text-link:hover{
+    color: white;
     list-style: none;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.div-start-footer-text .footer-text-link:hover {
+    color: #fff;
 }
 
 .div-start-footer ul{
