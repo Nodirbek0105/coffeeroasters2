@@ -19,6 +19,10 @@ body {
     justify-content: space-between;
     width: 1200px;
     font-family: "Roboto";
+    position: fixed;
+    background-color: #fff;
+    z-index: 2;
+    padding: 40px 30px;
 }
 
 section {
@@ -122,8 +126,19 @@ a {
     justify-content: center;
     position: absolute;
     -webkit-background-clip:text;
-    -webkit-text-fill-color: transparent;
-    
+    -webkit-text-fill-color: transparent;  
+    cursor: pointer;
+}
+
+.position:hover {
+    font-size: 200px;
+    width: 1200px;
+    background: -webkit-linear-gradient(#fff,#000);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;  
 }
 
 .mains-card {
@@ -176,6 +191,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     height: 2435px;
+    margin-top: 80px;
 }
 
 .section3 {
@@ -241,6 +257,15 @@ a {
     height: 382px;
     width: 300px;
     padding: 80px 3px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #094140;
+}
+
+.card:active {
+    background-color: rgb(6, 64, 3);
 }
 
 .card__title{
