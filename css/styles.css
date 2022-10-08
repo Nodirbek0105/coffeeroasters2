@@ -156,7 +156,7 @@ a {
     display: flex;
     justify-content: center;
     position: absolute;
-    -webkit-background-clip: text;
+    -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;  
     cursor: pointer;
 }
