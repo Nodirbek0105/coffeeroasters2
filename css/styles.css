@@ -306,6 +306,10 @@ a {
 .card:hover {
     background-color: #094140;
 }
+.section-for-cards-card:hover {
+    background-color: #0e8784;
+    cursor: pointer;
+}
 
 .card:active {
     background-color: rgb(6, 64, 3);
