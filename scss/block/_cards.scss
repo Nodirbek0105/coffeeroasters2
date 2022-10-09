@@ -1,19 +1,8 @@
 .section-for-cards-card {
-    .general-cards {
-        .section-for-cards-card{
-            cursor: pointer;
-        }
-        .section-for-cards-card:hover {
-            background-color:#0e8784;
-        }
-    }
-}
-
-.section-for-cards-card {
     cursor: pointer;
 }
 
-.section-for-cards-card:hover 
-{
+.section-for-cards-card:hover {
     background-color: #0e8784;
+    width: 300px;
 }

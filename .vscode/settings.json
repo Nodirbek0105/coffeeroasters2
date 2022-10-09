@@ -4,7 +4,8 @@
             "format": "expanded",
             "extensionName": ".css",
             "savePath": "/css",
-            "savePathReplacementPairs": "./css/styles.css"
+            "savePathReplacementPairs":null
         }
-    ]
+    ],
+    "compile-hero.disable-compile-files-on-did-save-code": false
 }
