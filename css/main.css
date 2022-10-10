@@ -1,5 +1,6 @@
 .section-for-cards-card {
   cursor: pointer;
+  width: 500px;
 }
 
 .section-for-cards-card:hover {
