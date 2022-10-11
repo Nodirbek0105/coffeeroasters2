@@ -1,0 +1,17 @@
+.section-for-cards-card {
+  cursor: pointer;
+  width: 500px;
+}
+
+.section-for-cards-card:hover {
+  background-color: #0e8784;
+  width: 300px;
+}
+
+.photo {
+  background-image: url(./image/create-plan.jpg);
+  width: 800px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,20 @@
+.photo {
+  width: 1200px;
+  height: 500px;
+  background-image: url(../scss/block/image/create-plan.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+  padding: 95px 300px 50px 75px;
+  border-radius: 0px;
+}
+.photo .photo_title {
+  font-size: 72px;
+  color: #fff;
+}
+.photo .photo_desciption {
+  color: #fff;
+}

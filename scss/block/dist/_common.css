@@ -1,0 +1,12 @@
+.coffee-section2__img {
+  width: 1200px;
+  height: 500px;
+  background-image: url(../img/Bitmap.svg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 95px 300px 50px 75px;
+  border-radius: 0px;
+}
