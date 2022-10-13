@@ -51,3 +51,11 @@ input {
   width: 240px;
   height: 250px;
 }
+
+.section-card-card:checked + .section-card-card-description {
+  color: #fff;
+}
+
+.section-card-card:checked + .section-card-card-title {
+  color: #fff;
+}

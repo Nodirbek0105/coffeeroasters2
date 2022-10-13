@@ -108,6 +108,14 @@ input {
   height: 250px;
 }
 
+.section-card-card:checked + .section-card-card-description {
+  color: #fff;
+}
+
+.section-card-card:checked + .section-card-card-title {
+  color: #fff;
+}
+
 .section3-2 {
   background-color: #292f39;
   display: flex;
