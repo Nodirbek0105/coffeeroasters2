@@ -1,0 +1,6 @@
+.section-card-parents {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  z-index: 2;
+}

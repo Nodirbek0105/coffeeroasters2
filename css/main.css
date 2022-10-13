@@ -46,7 +46,8 @@
 }
 
 .header {
-  z-index: 3;
+  position: fixed;
+  z-index: 5;
 }
 
 * {
@@ -148,4 +149,11 @@ input {
 .section-card .section-card-card-description {
   padding: 10px 10px 30px 70px;
   width: 200px;
+}
+
+.section-card-parents {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  z-index: 2;
 }/*# sourceMappingURL=main.css.map */

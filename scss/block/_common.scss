@@ -12,7 +12,8 @@
 }
 
 .header {
-    z-index: 3;
+    position: fixed;
+    z-index: 5;
 }
 
 * {

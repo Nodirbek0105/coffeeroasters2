@@ -95,14 +95,14 @@ input {
   position: initial;
 }
 
-.section-card-card:checked + .label-card::before {
-  background-color: #0e8784;
+.section-card-card:hover + .label-card::before {
+  background-color: burlywood;
   width: 240px;
   height: 250px;
 }
 
-.section-card-card:hover + .label-card::before {
-  background-color: burlywood;
+.section-card-card:checked + .label-card::before {
+  background-color: #0e8784;
   width: 240px;
   height: 250px;
 }
@@ -139,7 +139,7 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 1000px;
+  height: 1200px;
   z-index: 1;
 }
 .section-card .section-card-card-title {
@@ -148,4 +148,9 @@ input {
 .section-card .section-card-card-description {
   padding: 10px 10px 30px 70px;
   width: 200px;
+}
+
+.section-card-card-parent {
+  display: flex;
+  justify-content: space-between;
 }
