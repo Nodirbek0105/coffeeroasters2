@@ -40,14 +40,15 @@ input {
     position: initial;
 }
 
-.section-card-card:checked + .label-card::before {
-    background-color: #0e8784;
+
+.section-card-card:hover + .label-card::before {
+    background-color:burlywood;
     width: 240px;
     height: 250px;
 }
 
-.section-card-card:hover + .label-card::before {
-    background-color:burlywood;
+.section-card-card:checked + .label-card::before {
+    background-color: #0e8784;
     width: 240px;
     height: 250px;
 }

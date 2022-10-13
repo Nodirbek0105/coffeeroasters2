@@ -45,6 +45,14 @@
   border-radius: 0px;
 }
 
+.header {
+  z-index: 3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 input {
   position: absolute;
   width: 1px;
@@ -58,13 +66,14 @@ input {
 
 .label-card::before {
   content: "";
-  width: 300px;
-  height: 300px;
+  width: 240px;
+  height: 250px;
   background-color: #aaa;
   display: inline-flex;
   position: absolute;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .label-card {
@@ -78,7 +87,8 @@ input {
 
 .card-div {
   display: flex;
-  gap: 200px;
+  justify-content: space-between;
+  width: 710px;
 }
 
 .section-card-card-parent {
@@ -87,8 +97,14 @@ input {
 
 .section-card-card:checked + .label-card::before {
   background-color: #0e8784;
-  width: 300px;
-  height: 300px;
+  width: 240px;
+  height: 250px;
+}
+
+.section-card-card:hover + .label-card::before {
+  background-color: burlywood;
+  width: 240px;
+  height: 250px;
 }
 
 .section3-2 {
@@ -124,4 +140,12 @@ input {
   flex-direction: column;
   justify-content: space-between;
   height: 1000px;
+  z-index: 1;
+}
+.section-card .section-card-card-title {
+  padding: 50px 25px 10px 70px;
+}
+.section-card .section-card-card-description {
+  padding: 10px 10px 30px 70px;
+  width: 200px;
 }
