@@ -1,0 +1,53 @@
+input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.label-card::before {
+    content:"";
+    width: 240px;
+    height: 250px;
+    background-color: #aaa;
+    display: inline-flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.label-card {
+    z-index: 3;
+    position: relative;
+    cursor: pointer;
+    .section-card-card-description {
+        width: 100px;
+    }
+}
+
+.card-div {
+    display: flex;
+    justify-content: space-between;
+    width: 710px;
+}
+
+.section-card-card-parent {
+    position: initial;
+}
+
+.section-card-card:checked + .label-card::before {
+    background-color: #0e8784;
+    width: 240px;
+    height: 250px;
+}
+
+.section-card-card:hover + .label-card::before {
+    background-color:burlywood;
+    width: 240px;
+    height: 250px;
+}

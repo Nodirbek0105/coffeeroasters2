@@ -9,9 +9,119 @@
 }
 
 .photo {
-  background-image: url(./image/create-plan.jpg);
-  width: 800px;
-  height: 200px;
-  background-size: cover;
+  width: 1200px;
+  height: 500px;
+  background-image: url(../scss/block/image/create-plan.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+  padding: 95px 300px 50px 75px;
+  border-radius: 0px;
+}
+.photo .photo_title {
+  font-size: 72px;
+  color: #fff;
+}
+.photo .photo_desciption {
+  color: #fff;
+}
+.photo .label-card {
+  z-index: 2;
+}
+
+.coffee-section2__img {
+  width: 1200px;
+  height: 500px;
+  background-image: url(../img/Bitmap.svg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 95px 300px 50px 75px;
+  border-radius: 0px;
+}
+
+input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.label-card::before {
+  content: "";
+  width: 300px;
+  height: 300px;
+  background-color: #aaa;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.label-card {
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.label-card .section-card-card-description {
+  width: 100px;
+}
+
+.card-div {
+  display: flex;
+  gap: 200px;
+}
+
+.section-card-card-parent {
+  position: initial;
+}
+
+.section-card-card:checked + .label-card::before {
+  background-color: #0e8784;
+  width: 300px;
+  height: 300px;
+}
+
+.section3-2 {
+  background-color: #292f39;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  height: 600px;
+  width: 1200px;
+  border-radius: 10px;
+  padding-left: 40px;
+}
+.section3-2 .general2 {
+  margin-left: 40px;
+  width: 950px;
+}
+.section3-2 .general2 .main-card-description {
+  color: #aaa;
+}
+.section3-2 .lines-parent {
+  width: 1200px;
+}
+.section3-2 .lines-parent .line1 {
+  width: 900px;
+}
+.section3-2 .lines-parent .line1 .lines1 {
+  width: 360px;
+}
+
+.section-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1000px;
 }

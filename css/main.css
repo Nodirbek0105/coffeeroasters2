@@ -28,6 +28,9 @@
 .photo .photo_desciption {
   color: #fff;
 }
+.photo .label-card {
+  z-index: 2;
+}
 
 .coffee-section2__img {
   width: 1200px;
@@ -40,4 +43,109 @@
   background-size: cover;
   padding: 95px 300px 50px 75px;
   border-radius: 0px;
+}
+
+.header {
+  z-index: 3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.label-card::before {
+  content: "";
+  width: 240px;
+  height: 250px;
+  background-color: #aaa;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.label-card {
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.label-card .section-card-card-description {
+  width: 100px;
+}
+
+.card-div {
+  display: flex;
+  justify-content: space-between;
+  width: 710px;
+}
+
+.section-card-card-parent {
+  position: initial;
+}
+
+.section-card-card:checked + .label-card::before {
+  background-color: #0e8784;
+  width: 240px;
+  height: 250px;
+}
+
+.section-card-card:hover + .label-card::before {
+  background-color: burlywood;
+  width: 240px;
+  height: 250px;
+}
+
+.section3-2 {
+  background-color: #292f39;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  height: 600px;
+  width: 1200px;
+  border-radius: 10px;
+  padding-left: 40px;
+}
+.section3-2 .general2 {
+  margin-left: 40px;
+  width: 950px;
+}
+.section3-2 .general2 .main-card-description {
+  color: #aaa;
+}
+.section3-2 .lines-parent {
+  width: 1200px;
+}
+.section3-2 .lines-parent .line1 {
+  width: 900px;
+}
+.section3-2 .lines-parent .line1 .lines1 {
+  width: 360px;
+}
+
+.section-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1000px;
+  z-index: 1;
+}
+.section-card .section-card-card-title {
+  padding: 50px 25px 10px 70px;
+}
+.section-card .section-card-card-description {
+  padding: 10px 10px 30px 70px;
+  width: 200px;
 }/*# sourceMappingURL=main.css.map */

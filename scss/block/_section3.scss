@@ -1,0 +1,27 @@
+.section3-2 {
+    background-color: #292f39;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    height: 600px;
+    width: 1200px;
+    border-radius: 10px;
+    padding-left: 40px;
+    .general2 {
+        margin-left: 40px;
+        width: 950px;
+        .main-card-description {
+            color: #aaa;
+        }
+    }
+    .lines-parent{
+        width: 1200px;
+       .line1 {
+        width: 900px;
+        .lines1 {
+            width: 360px;
+        }
+       } 
+    }
+}
