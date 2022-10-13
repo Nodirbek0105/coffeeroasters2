@@ -139,7 +139,7 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 1000px;
+  height: 1200px;
   z-index: 1;
 }
 .section-card .section-card-card-title {
