@@ -45,12 +45,25 @@
   border-radius: 0px;
 }
 
+.container {
+  height: 3050px;
+}
+
+.main {
+  height: 2635px;
+}
+
 .header {
-  z-index: 3;
+  position: fixed;
+  z-index: 5;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.arrow:checked {
+  z-index: 6;
 }
 
 input {
@@ -107,6 +120,14 @@ input {
   height: 250px;
 }
 
+.section-card-card:checked + .section-card-card-description {
+  color: #fff;
+}
+
+.section-card-card:checked + .section-card-card-title {
+  color: #fff;
+}
+
 .section3-2 {
   background-color: #292f39;
   display: flex;
@@ -139,7 +160,7 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 1200px;
+  height: 1450px;
   z-index: 1;
 }
 .section-card .section-card-card-title {
@@ -150,7 +171,59 @@ input {
   width: 200px;
 }
 
-.section-card-card-parent {
+.section-card-parents {
   display: flex;
   justify-content: space-between;
+  width: 1160px;
+  z-index: 2;
+}
+
+.section-card-flexxer {
+  transform: translate(40px, 40px);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.titlecard-main:checked + .card {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.section-card-flexxer {
+  display: flex;
+}
+
+.background {
+  background-color: #d0e6e6;
+  padding: 30px 40px;
+  margin-top: 10px;
+}
+
+.margin-top {
+  margin-top: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.id {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.lines:hover {
+  transform: scaleX(2x);
 }
