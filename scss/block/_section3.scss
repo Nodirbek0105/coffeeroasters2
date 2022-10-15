@@ -25,3 +25,31 @@
        } 
     }
 }
+
+.position-photo {
+    background-image: url(../scss/block/image/Bitmap.svg);
+    width: 685px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    transform: translate(0px,-450px);
+
+}
+
+.section3-title {
+    color: #fff;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.section3-description {
+    color: #aaa;
+    font-size: 25px;
+    width: 630px;
+    text-align: center;
+}
+
