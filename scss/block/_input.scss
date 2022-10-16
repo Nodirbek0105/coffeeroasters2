@@ -11,7 +11,7 @@ input {
 
 .label-card::before {
     content:"";
-    width: 240px;
+    width: 215px;
     height: 250px;
     background-color: #aaa;
     display: inline-flex;
@@ -19,6 +19,7 @@ input {
     align-items: center;
     justify-content: center;
     text-align: center;
+    border-radius: 10px;
 }
 
 .label-card {
@@ -42,14 +43,18 @@ input {
 
 
 .section-card-card:hover + .label-card::before {
-    background-color:burlywood;
-    width: 240px;
+    background-color:#fdd6ba;
+    border-radius: 10px;
+    width: 215px;
     height: 250px;
+    transition: 3s ease;
+    transform: rotate(1800deg);
 }
 
 .section-card-card:checked + .label-card::before {
-    background-color: #0e8784;
-    width: 240px;
+    background-color: var(--green);
+    border-radius: 10px;
+    width: 215px;
     height: 250px;
 }
 
