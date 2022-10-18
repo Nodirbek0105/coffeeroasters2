@@ -43,25 +43,25 @@ input {
 
 
 .section-card-card:hover + .label-card::before {
-    background-color:#fdd6ba;
+    background-color:$color-burly;
     border-radius: 10px;
     width: 215px;
     height: 250px;
-    transition: 3s ease;
-    transform: rotate(1800deg);
+    transition: 1s ease;
+    transform: rotate(180deg);
 }
 
 .section-card-card:checked + .label-card::before {
-    background-color: var(--green);
+    background-color:$prime-color-green;
     border-radius: 10px;
     width: 215px;
     height: 250px;
 }
 
 .section-card-card:checked + .section-card-card-description {
-    color: #fff;
+    color: $color-white;
 }
 
 .section-card-card:checked + .section-card-card-title {
-    color: #fff;
+    color: $color-white;
 }

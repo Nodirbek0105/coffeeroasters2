@@ -5,7 +5,7 @@
     align-items: center;
     margin-bottom: 200px;
     .avatar {
-        background-image: url(../scss/block/image/Bitmap.svg);
+        background-image: url(../scss/block/image/Bitmap5.png);
         width: 470px;
         height: 880px;
         display: flex;
@@ -24,11 +24,16 @@
         .section-photo-description {
             width: 600px;
             font-size: 20px;
-            color: #aaa;
+            color: $gray-color;
         }
         .section-photo-title {
             font-size: 72px;
             font-weight: 900;
         }
     }
+}
+
+.combined-title {
+    color: $gray-color;
+    font-size: 40px;
 }

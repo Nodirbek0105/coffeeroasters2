@@ -1,9 +1,0 @@
-.section-for-cards-card {
-  cursor: pointer;
-  width: 500px;
-}
-
-.section-for-cards-card:hover {
-  background-color: #0e8784;
-  width: 300px;
-}
