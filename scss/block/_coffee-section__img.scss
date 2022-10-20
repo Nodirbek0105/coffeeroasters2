@@ -1,0 +1,57 @@
+.coffee-section__img {
+    background-image: url(../img/Bitmap\ 1.png);
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 600px 100px 150px;
+    .text{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+
+    }
+
+}
+
+.photo-btn {
+    background-color:  #0e8784 ;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 230px;
+    text-transform: uppercase;
+}
+.photo-btn:hover {
+    background-color: #6dcdca;
+}
+
+.coffee-section2__img {
+    background-image: url(../scss/block/image/Bitmap.svg);   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 95px 300px 50px 75px;
+}
+
+.coffee-section-description {
+    font-size: 20px;
+    color: rgb(193, 191, 191);
+    font-weight: 300;
+} 
+
+.coffee-section-title {
+    font-size: 60px;
+    color: #fff;
+    font-family: "Fraunces 9pt";
+}

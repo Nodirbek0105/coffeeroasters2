@@ -1,0 +1,72 @@
+.main-section {
+    position: relative;
+    .position {
+        font-size: 200px;
+        width: 1200px;
+        background: -webkit-linear-gradient(#000,#fff);
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        -webkit-background-clip:text;
+        -webkit-text-fill-color: transparent;  
+        cursor: pointer;
+    }
+
+    .position:hover {
+        font-size: 200px;
+        width: 1200px;
+        background: -webkit-linear-gradient(#fff,#000);
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        -webkit-background-clip : text;
+        -webkit-text-fill-color: transparent;  
+    }
+    
+    .mains-cards {
+        display: flex;
+        padding-top: 120px;
+        
+        .mains-card {
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            height: 350px;
+            
+        .paket {
+            width: 300px;
+        }
+
+        .paket:hover{
+            transform: scale(1.1);
+        }
+        
+        .text2 {
+            width: 301px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 110px;
+        }
+        
+        .title {
+            width: 300px;
+            text-align: center;
+        }
+
+        .title:hover{
+            transform: scale(1.1);
+        }
+        
+        .main-text {
+            width: 200px;
+            text-align: center;
+        }
+        .main-text:hover{
+            transform: scale(1.1);
+        }
+        }
+    }
+}

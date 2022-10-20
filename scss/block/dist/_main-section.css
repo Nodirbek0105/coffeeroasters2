@@ -1,0 +1,63 @@
+.main-section {
+  position: relative;
+}
+.main-section .position {
+  font-size: 200px;
+  width: 1200px;
+  background: -webkit-linear-gradient(#000, #fff);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.main-section .position:hover {
+  font-size: 200px;
+  width: 1200px;
+  background: -webkit-linear-gradient(#fff, #000);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main-section .mains-cards {
+  display: flex;
+  padding-top: 120px;
+}
+.main-section .mains-cards .mains-card {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+}
+.main-section .mains-cards .mains-card .paket {
+  width: 300px;
+}
+.main-section .mains-cards .mains-card .paket:hover {
+  transform: scale(1.1);
+}
+.main-section .mains-cards .mains-card .text2 {
+  width: 301px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 110px;
+}
+.main-section .mains-cards .mains-card .title {
+  width: 300px;
+  text-align: center;
+}
+.main-section .mains-cards .mains-card .title:hover {
+  transform: scale(1.1);
+}
+.main-section .mains-cards .mains-card .main-text {
+  width: 200px;
+  text-align: center;
+}
+.main-section .mains-cards .mains-card .main-text:hover {
+  transform: scale(1.1);
+}

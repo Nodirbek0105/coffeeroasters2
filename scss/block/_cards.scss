@@ -7,3 +7,7 @@
     background-color: $prime-color-green;
     width: 300px;
 }
+
+.card:hover{
+    transform: scale(1.1);
+}

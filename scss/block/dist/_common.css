@@ -1,3 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.header-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  font-family: "Roboto";
+  position: fixed;
+  background-color: #fff;
+  z-index: 2;
+  padding: 40px 30px;
+}
+
 .coffee-section2__img {
   width: 1200px;
   height: 500px;
@@ -43,6 +67,18 @@ li {
 
 .container2 {
   height: 3500px;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px 40px;
+  width: 1280px;
+  height: 2800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px;
 }
 
 .main {
@@ -60,12 +96,49 @@ li {
 .header {
   position: fixed;
   z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  font-family: "Roboto";
+  background-color: #fff;
+  padding: 40px 30px;
+}
+.header .headers-list {
+  display: flex;
+  gap: 40px;
+}
+.header .headers-list .headers-item:hover {
+  color: #000;
+}
+.header .headers-list .headers-item {
+  list-style: none;
+  color: gray;
+  text-transform: uppercase;
+}
+.header .headers-list .headers-item .headers-link {
+  list-style: none;
+  text-decoration: none;
+  color: gray;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Roboto";
+}
+.header .headers-list .headers-item .headers-link:hover {
+  color: #000;
 }
 
 * {
+  margin: 0;
+  padding: 0;
+  font-family: "Fraunces 9pt";
   box-sizing: border-box;
 }
 
 .arrow:checked {
   z-index: 6;
+}
+
+a {
+  cursor: pointer;
 }

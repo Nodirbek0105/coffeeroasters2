@@ -16,15 +16,27 @@
         }
     }
     .lines-parent{
-        width: 1200px;
-       .line1 {
-        width: 900px;
-        .lines1 {
-            width: 360px;
+        .lines {
+            width: 370px;
+            height: 3px;
+            background-color: #fdd6ba;
         }
-       } 
+    
+        .lines1 {
+            width: 185px;
+            height: 3px;
+            background-color: #fdd6ba;
+        }
+        .oval-radial {
+            width: 40px;
+            height: 40px;
+            border: 5px solid #0e8784;
+            border-radius: 50%;
+        }
     }
 }
+
+
 
 .position-photo {
     background-image: url(../scss/block/image/Bitmap.svg);
@@ -54,4 +66,17 @@
     font-size: 25px;
     width: 630px;
     text-align: center;
+}
+
+
+.line1 {
+    display: flex;
+    align-items: center; 
+    width: 710px;  
+}
+
+.line {
+    display: flex;
+    align-items: center; 
+    width: 1040px;  
 }
