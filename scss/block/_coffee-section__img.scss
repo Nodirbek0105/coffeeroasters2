@@ -20,7 +20,7 @@
 }
 
 .photo-btn {
-    background-color:  #0e8784 ;
+    background-color:  $prime-color-green ;
     color: #fff;
     padding: 10px 15px;
     font-size: 20px;
@@ -31,7 +31,7 @@
     text-transform: uppercase;
 }
 .photo-btn:hover {
-    background-color: #6dcdca;
+    background-color: $not-prime-green;
 }
 
 .coffee-section2__img {
@@ -42,16 +42,23 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 95px 300px 50px 75px;
+    
+    .text3 {
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
 
 .coffee-section-description {
     font-size: 20px;
-    color: rgb(193, 191, 191);
+    color: $gray-color;
     font-weight: 300;
 } 
 
 .coffee-section-title {
     font-size: 60px;
-    color: #fff;
+    color:$color-white;
     font-family: "Fraunces 9pt";
 }

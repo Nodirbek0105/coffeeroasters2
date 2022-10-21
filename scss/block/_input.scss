@@ -58,10 +58,14 @@ input {
     height: 250px;
 }
 
-.section-card-card:checked + .section-card-card-description {
+.section-card-card:checked  .section-card-card-description {
     color: $color-white;
 }
 
 .section-card-card:checked + .section-card-card-title {
     color: $color-white;
+}
+
+.section-card-card:checked + .section-card-card:hover {
+    transform: rotate(0deg);
 }

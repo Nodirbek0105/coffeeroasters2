@@ -22,11 +22,11 @@
 }
 
 .background2 {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid $color-black;
 }
 
 .background {
-    border-top: 1px solid black;
+    border-top: 1px solid  $color-black;
     padding: 30px 40px;
     margin-top: 10px;
 }
@@ -37,7 +37,7 @@
 
 a {
     text-decoration: none;
-    color: var(--green);
+    color: $prime-color-green;
 }
 
 .id {
@@ -48,6 +48,6 @@ a {
     justify-content: space-between;
     .background-title {
         font-size: 30px;
-        color: rgb(199, 186, 186);
+        color:$gray-color;
     }
 }
